@@ -857,6 +857,11 @@ int MAIN(const int argc, const char_t* argv[])
     if (config.self_test)
         return self_test();
 
+    // --- ADD YOUR BANNER HERE ---
+    printf("==========================================\n");
+    printf("   RUNTIME CUSTOMIZED BY: Anil K       \n");
+    printf("==========================================\n");
+
     int exit_code = run(config);
     return exit_code;
 }
