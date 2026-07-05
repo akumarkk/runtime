@@ -859,7 +859,7 @@ int MAIN(const int argc, const char_t* argv[])
 
     // --- ADD YOUR BANNER HERE ---
     printf("==========================================\n");
-    printf("   RUNTIME CUSTOMIZED BY: Anil K       \n");
+    printf("   RUNTIME (Top Built) BY: Anil K       \n");
     printf("==========================================\n");
 
     int exit_code = run(config);
